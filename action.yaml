@@ -1,0 +1,12 @@
+name: 'Comment current pull request'
+description: 'Create a comment in the current pull request'
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+  comment:
+    description: 'Comment'
+    required: true
+runs:
+  using: 'node12'
+  main: './dist/index.js'

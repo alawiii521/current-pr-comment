@@ -1,0 +1,28 @@
+{
+  "name": "current-pr-comment",
+  "version": "1.0.0",
+  "description": "Creates a comment in the current pull request",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alawiii521/current-pr-comment.git"
+  },
+  "keywords": ["action", "comment", "pr", "pull-request"],
+  "author": "Ali Majed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alawiii521/current-pr-comment/issues"
+  },
+  "homepage": "https://github.com/alawiii521/current-pr-comment#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.27.0",
+    "eslint": "^7.18.0"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
